@@ -1,0 +1,290 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>李恩｜個人品牌網站</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <!-- Google Fonts: Yeseva One & Roboto -->
+  <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container nav-flex">
+      <div class="brand">Lee En</div>
+      <ul class="nav-links">
+        <li><a href="#about"><span class="lang-zh">關於我</span><span class="lang-en">About</span></a></li>
+        <li><a href="#services"><span class="lang-zh">服務</span><span class="lang-en">Services</span></a></li>
+        <li><a href="#resume"><span class="lang-zh">履歷</span><span class="lang-en">Resume</span></a></li>
+        <li><a href="#rate-card"><span class="lang-zh">報價表</span><span class="lang-en">Rate Card</span></a></li>
+        <li><a href="#contact"><span class="lang-zh">聯絡</span><span class="lang-en">Contact</span></a></li>
+      </ul>
+      <select id="lang-switch" class="lang-switch">
+        <option value="zh" selected>中文</option>
+        <option value="en">EN</option>
+      </select>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero-section">
+    <div class="container hero-flex">
+      <div class="hero-text">
+        <h1 class="hero-title">
+          <span class="lang-zh">哈囉，我是李恩！</span>
+          <span class="lang-en">Hello, I'm Lee En!</span>
+        </h1>
+        <p class="hero-desc">
+          <span class="lang-zh">自學網頁設計師，熱愛結合設計與科技，專注於品牌網站、AI自動化與數位專案管理。</span>
+          <span class="lang-en">A self-taught web designer passionate about blending design and technology, focusing on brand websites, AI automation, and digital project management.</span>
+        </p>
+        <div class="hero-social">
+          <a href="#" class="social-btn">LinkedIn</a>
+          <a href="#" class="social-btn">Instagram</a>
+        </div>
+      </div>
+      <div class="hero-photo-wrap">
+        <div class="photo-bg"></div>
+        <img src="photo.jpg" alt="Lee En" class="hero-photo">
+      </div>
+    </div>
+    <div class="scroll-down">
+      <span class="lang-zh">往下滑</span>
+      <span class="lang-en">Scroll down</span>
+    </div>
+  </header>
+
+  <!-- Services Section -->
+  <section id="services" class="section">
+    <div class="container">
+      <h2 class="section-title">
+        <span class="lang-zh">服務項目</span>
+        <span class="lang-en">Services</span>
+      </h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">💻</div>
+          <h3><span class="lang-zh">網站設計</span><span class="lang-en">Website Design</span></h3>
+          <p><span class="lang-zh">量身打造品牌形象，兼顧美感與使用者體驗。</span><span class="lang-en">Custom brand websites with great UX and aesthetics.</span></p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🛠️</div>
+          <h3><span class="lang-zh">網站開發</span><span class="lang-en">Web Development</span></h3>
+          <p><span class="lang-zh">響應式切版、CMS整合、SEO優化。</span><span class="lang-en">Responsive layouts, CMS integration, SEO optimization.</span></p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🤖</div>
+          <h3><span class="lang-zh">AI自動化</span><span class="lang-en">AI Automation</span></h3>
+          <p><span class="lang-zh">自動化流程設計，提升效率與創新。</span><span class="lang-en">Workflow automation for efficiency and innovation.</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" class="section bg-green">
+    <div class="container">
+      <div class="resume-flex">
+        <div class="resume-block">
+          <h2 class="section-title">
+            <span class="lang-zh">學歷</span><span class="lang-en">Education</span>
+          </h2>
+          <ul class="resume-list">
+            <li>
+              <span class="resume-year">2022-2023</span>
+              <span class="lang-zh">數位校園學院 數位專案管理</span>
+              <span class="lang-en">Digital Campus, Digital Project Management</span>
+            </li>
+            <li>
+              <span class="resume-year">2021-2022</span>
+              <span class="lang-zh">貝濟耶技術學院 商業技術</span>
+              <span class="lang-en">IUT de Béziers, Commercialisation Technique</span>
+            </li>
+            <li>
+              <span class="resume-year">2017-2020</span>
+              <span class="lang-zh">峴港經濟大學 國際商務</span>
+              <span class="lang-en">Danang University of Economics, International Business</span>
+            </li>
+          </ul>
+        </div>
+        <div class="resume-block">
+          <h2 class="section-title">
+            <span class="lang-zh">經歷</span><span class="lang-en">Experience</span>
+          </h2>
+          <ul class="resume-list">
+            <li>
+              <span class="resume-year">2022</span>
+              <span class="lang-zh">行銷實習生｜社群內容創作者</span>
+              <span class="lang-en">Marketing Intern | Social Media Content Creator</span>
+              <div class="tags">
+                <span class="tag">#Creativity</span>
+                <span class="tag">#Communication</span>
+              </div>
+            </li>
+            <li>
+              <span class="resume-year">2021</span>
+              <span class="lang-zh">平面設計師｜品牌設計</span>
+              <span class="lang-en">Graphic Designer | Brand Design</span>
+              <div class="tags">
+                <span class="tag">#Detail-oriented</span>
+                <span class="tag">#Adaptability</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="resume-block">
+          <h2 class="section-title">
+            <span class="lang-zh">技能</span><span class="lang-en">Skills</span>
+          </h2>
+          <div class="skills">
+            <div>
+              <strong>Software</strong>
+              <div class="skill-icons">
+                <span>Ps</span><span>Ai</span><span>Xd</span><span>Pr</span>
+              </div>
+            </div>
+            <div>
+              <strong>Coding</strong>
+              <div class="skill-icons">
+                <span>HTML</span><span>CSS</span><span>JS</span><span>PHP</span>
+              </div>
+            </div>
+            <div>
+              <strong>Design</strong>
+              <div class="skill-icons">
+                <span>UX/UI</span><span>Packaging</span><span>User Research</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="resume-block">
+          <h2 class="section-title">
+            <span class="lang-zh">語言</span><span class="lang-en">Language</span>
+          </h2>
+          <ul class="lang-list">
+            <li>English <span class="level">Fluent</span></li>
+            <li>French <span class="level">Intermediate</span></li>
+            <li>Vietnamese <span class="level">Native</span></li>
+          </ul>
+        </div>
+        <div class="resume-block">
+          <h2 class="section-title">
+            <span class="lang-zh">興趣</span><span class="lang-en">Hobbies</span>
+          </h2>
+          <div class="hobbies">
+            <span class="hobby-icon">🎷</span> <span>Funk/Jazz</span>
+            <span class="hobby-icon">🧶</span> <span>Crochet</span>
+            <span class="hobby-icon">📷</span> <span>Photography</span>
+            <span class="hobby-icon">✈️</span> <span>Travel</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rate Card Section -->
+  <section id="rate-card" class="section bg-yellow">
+    <div class="container">
+      <h2 class="section-title text-center">
+        <span class="lang-zh">報價表</span>
+        <span class="lang-en">Rate Card</span>
+      </h2>
+      <div class="table-responsive">
+        <table class="rate-table">
+          <thead>
+            <tr>
+              <th><span class="lang-zh">服務項目</span><span class="lang-en">Service</span></th>
+              <th><span class="lang-zh">價格（TWD）</span><span class="lang-en">Price (TWD)</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="lang-zh">網站設計</span><span class="lang-en">Website Design</span></td>
+              <td><span class="lang-zh">$30,000 起</span><span class="lang-en">from $30,000</span></td>
+            </tr>
+            <tr>
+              <td><span class="lang-zh">網站開發</span><span class="lang-en">Web Development</span></td>
+              <td><span class="lang-zh">$40,000 起</span><span class="lang-en">from $40,000</span></td>
+            </tr>
+            <tr>
+              <td><span class="lang-zh">AI 自動化流程</span><span class="lang-en">AI Automation</span></td>
+              <td><span class="lang-zh">$20,000 起</span><span class="lang-en">from $20,000</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section bg-orange">
+    <div class="container contact-flex">
+      <div class="contact-info">
+        <h2 class="section-title">
+          <span class="lang-zh">聯絡方式</span><span class="lang-en">Contact</span>
+        </h2>
+        <ul>
+          <li><span class="lang-zh">地區：</span><span class="lang-en">Location: </span>台北 Taipei</li>
+          <li>Email: leen@example.com</li>
+        </ul>
+        <div class="hero-social">
+          <a href="#" class="social-btn">LinkedIn</a>
+          <a href="#" class="social-btn">Instagram</a>
+        </div>
+      </div>
+      <div class="contact-cta">
+        <a href="mailto:leen@example.com" class="contact-btn">
+          <span class="lang-zh">寫信給我</span>
+          <span class="lang-en">Email Me</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container text-center">
+      <span>© 2025 Lee En. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('lang-switch').addEventListener('change', function() {
+      var lang = this.value;
+      document.querySelectorAll('.lang-zh').forEach(el => el.style.display = lang === 'zh' ? '' : 'none');
+      document.querySelectorAll('.lang-en').forEach(el => el.style.display = lang === 'en' ? '' : 'none');
+      document.documentElement.lang = lang === 'zh' ? 'zh-Hant' : 'en';
+    });
+    document.getElementById('lang-switch').dispatchEvent(new Event('change'));
+  </script>
+</body>
+</html>
+
+<!-- styles.css -->
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  line-height: 1.6;
+  background-color: #ffffff;
+  color: #333;
+}
+.hero { background-color: #f9f9f9; }
+.section { position: relative; overflow: hidden; padding: 80px 0; }
+.wave { position: absolute; left: 0; width: 100%; height: 80px; }
+.wave svg { display: block; width: 100%; height: 100%; }
+.wave-top { top: 0; transform: rotate(180deg); }
+.wave-bottom { bottom: 0; }
+.bg-emerald { background-color: #2a9d8f !important; }
+.bg-pink { background-color: #e76f51 !important; }
+.bg-light { background-color: #f9f9f9 !important; }
+img.rounded { border-radius: 8px; }
+img.shadow { box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+footer { background-color: #ffffff; }
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+  .hero .display-4 { font-size: 2.5rem; }
+  .display-6 { font-size: 1.75rem; }
+}
